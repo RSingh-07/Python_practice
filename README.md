@@ -1,71 +1,41 @@
-# 🐍 Python Practice & Projects Repository
+# 🐍 Python Mastery Journey - CodeWithHarry x Me
 
-Welcome to my **Python learning and practice repository**! This repository includes everything I learned while studying Python — from fundamentals to advanced topics — including hands-on exercises, topic-wise practice sets, and multiple real-world projects.
+This repository contains my complete Python learning journey based on the **Python One-Shot Course** by [CodeWithHarry](https://www.youtube.com/@CodeWithHarry), following the "Ultimate Python Handbook".
 
----
+Each chapter includes:
 
-## 📚 Contents
-
-This repository is structured to follow a complete learning path based on _The Ultimate Python Handbook_. Each chapter includes:
-- ✅ Code examples
-- ✅ Practice problems
-- ✅ Notes and concepts
-- ✅ Mini and Mega projects
+- 📘 Notes
+- 💻 Code Examples
+- 🧠 Practice Sets
+- 🚀 Projects
 
 ---
 
-## 🗂️ Folder Structure
+## 📚 Topics Covered
 
-📦Python_practice/
-┣ 📁CHAPTER 1–13/ # Topic-wise learning (modules, variables, OOPs, etc.)
-┣ 📁ps1–ps13/ # Practice sets per chapter
-┣ 📁Projects/ # Mini projects (Snake-Water-Gun, Perfect Guess)
-┣ 📁Mega Projects/ # JARVIS Assistant, Auto-Reply AI Chatbot
-┣ 📄README.md # This file
-┣ 📄LICENSE # Open-source license
-┣ 📄The Ultimate Python Handbook.pdf
-
-
----
-
-## 🧠 Topics Covered
-
-- ✅ Python Basics: Variables, Datatypes, Operators
-- ✅ Strings, Lists, Tuples, Dictionaries, Sets
-- ✅ Conditionals & Loops
-- ✅ Functions & Recursion
-- ✅ Object-Oriented Programming (OOP)
-- ✅ Inheritance, Decorators, Operator Overloading
-- ✅ File I/O
-- ✅ Exception Handling
-- ✅ Lambda, Map, Filter, Reduce
-- ✅ Virtual Environments
-- ✅ Advanced Concepts: Match-Case, Type Hints, Walrus Operator
+| Chapter | Topics |
+|--------|--------|
+| 01 | Modules, Comments, pip |
+| 02 | Variables & Datatypes |
+| 03 | Strings |
+| 04 | Lists & Tuples |
+| 05 | Dictionaries & Sets |
+| 06 | Conditionals |
+| 07 | Loops |
+| 08 | Functions & Recursion |
+| 09 | File I/O |
+| 10 | OOP - Classes & Objects |
+| 11 | Inheritance & OOP Concepts |
+| 12 | Advanced Python (1) |
+| 13 | Advanced Python (2) |
 
 ---
 
-## 💻 Projects
+## 🔥 Projects
 
-### 🎯 Mini Projects
-- **Snake, Water, Gun Game**  
-- **The Perfect Guess Game**
-
-### 🚀 Mega Projects
-- **Jarvis – Voice Assistant**  
-  Uses `speech_recognition`, `gTTS`, `pyttsx3`, `webbrowser`, and OpenAI GPT for voice control.
-  
-- **Naruto – Auto-Reply AI Chatbot**  
-  Uses `pyautogui`, `pyperclip`, and OpenAI to generate humorous, roast-style replies.
-
----
-
-## 🧪 How to Run
-
-> Pre-requisite: Install Python ≥ 3.8
-
-1. Clone this repo:
-```bash
-git clone https://github.com/RSingh-07/Python_practice.git
-cd Python_practice
-
-
+| Project | Description |
+|--------|-------------|
+| Snake, Water, Gun Game | A simple CLI game |
+| The Perfect Guess | Random number guessing game |
+| Jarvis AI | Voice-based virtual assistant |
+| AI Chatbot (Naruto Style) | Funny auto-reply bot using GPT |
