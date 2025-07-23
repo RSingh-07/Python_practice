@@ -1,0 +1,13 @@
+An environment which is same as the system interpreter but is isolated from the other Python environments on the system.
+
+STEP 01: install
+pip install virtualenv
+
+STEP 02: new environment
+virtualenv myprojectenv
+
+STEP 03: The next step after creating the virtual environment is to activate it.
+
+go to cmd, PS , terminal 
+.\myprojectenv\Scripts\activate.ps1 for shell
+.\myprojectenv\Scripts\activate.bat for cmd
