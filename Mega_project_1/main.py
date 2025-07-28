@@ -9,7 +9,7 @@ import requests
 # recognizer object
 recognizer = sr.Recognizer()
 
-newsapi = "ba89a47c60254bf3bffaf44db161bb81"
+newsapi = "#Add your newsAPI key"
 # Initialise tts engine
 
 
@@ -35,7 +35,7 @@ def processCommand(c):
     elif "news" in c.lower():
 
         try:
-            r = requests.get(f"https://newsapi.org/v2/top-headlines?country=in&category=technology&apiKey=ba89a47c60254bf3bffaf44db161bb81")
+            r = requests.get(f"https://newsapi.org/v2/top-headlines?country=in&category=technology&apiKey={newsapi}")
             r.raise_for_status()
             data = r.json()
             articles = data.get('articles', [])
